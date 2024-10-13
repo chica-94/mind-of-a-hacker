@@ -7,95 +7,107 @@
 
     <title>The Mind of a Hacker</title>
 </head>
-<body>
+<body class="container">
 
-    <header class="container"> <!-- HEADER -->
-        <div class="hero">
-            
-            <h1>The Mind of a Hacker</h1>
-            <h2>Think outside the box</h2>
-        </div>
-
-        <h2>Adopt a hacker mindset to improve threat detection</h2>
-            <p>For the aspiring security professionals and everyday tech user that will keep adversaries from gaining access to their device. They typically use a 5-step methodology from discovery to exploitation. This mindset emphasizes exploitation problem-solving abilities, creativity, and constant learning.</p>
-
-            <p>Get to know techniques and tools they use</p>
-
-        <nav>
-            <ul>
-                <li><a href="#recon">Reconnaissance</a></li>
-                <li><a href="#enumeration">Enumeration</a></li>
-            </ul>
-        </nav>
+    <header class="hero-image"> <!-- HEADER -->
+      <div class="hero-text">
+        <h1>The Mind of a Hacker</h1>
+        <h2>Think outside the box</h2>
+      </div>
+      </div>
     </header>
-    <main class="container"><!-- MAIN -->
-
-        <!-- 5 Hacking Steps -->
-        <article class="phases">
-
-            <!-- Recon Phase -->
-            <article class="phase-row">
-                <div class="phase-col">
-                    <h2 class="number">Phase 1</h2>
-                    <h2>Reconnaissance/Footprinting</h2>
-                    <img src="img/recon.jpg" width="450" height="400" alt="Reconnaissance/Footprinting" title="The first phase of Hacking is Reconnaissance"  >
-                </div>
-                <div class="phase-col">
-                    <p class="intro">Initial phase of a systematic data-gathering process</p>
-
-                    <p>Methods used:</p>
-                        <ul>
-                            <li>Open Source Intelligence</li>
-                            <li>Active and Passive</li>
-                            <li>Information Gathering</li>
-                        </ul>
-
-                    <p>Tools used:</p>
-                    <ul>
-                        <li><a href="https://angryip.org/">Angry IP Scanner</a></li>
-                        <li><a href="https://dnschecker.org/online-traceroute.php">Traceroute</a></li>
-                        <li><a href="https://certisec.org/recon-ng-a-full-guide/">Recon-ng</a></li>
-                        <li><a href="https://certisec.org/recon-ng-a-full-guide/">TheHarvester</a></li>
-                    </ul>
-
-                    <p>This entails getting as much information as you can about the target without interacting directly with the target. The greatest resource for recon is the Internet, and the greatest tool is the search engine, Google. </p>
-                </div>
-            </article>
-
-            <!-- Enumeration Phase-->
-            <article class="phase-row">
-                <div class="phase-col">
-                    <p class="intro">Systematic exploration to identify open ports, services, and potential vulnerabilities</p>
-
-                    <p>Methods used:</p>
-                        <ul>
-                            <li>Port Scanning</li>
-                            <li>Vulnerability Scanning</li>
-                            <li>Banner Grabbing</li>
-                        </ul>
-
-                    <p>Tools used:</p>
-                    <ul>
-                        <li><a href="https://www.csoonline.com/article/567067/what-is-metasploit-and-how-to-use-this-popular-hacking-tool.html">Metasploit</a></li>
-                        <li><a href="https://nmap.org/">Nmap</a></li>
-                        <li><a href="https://cirt.net/Nikto2">Nikto</a></li>
-                        <li><a href="https://www.cs.cmu.edu/~dwendlan/personal/nessus.html">Nessus</a></li>
-                    </ul>
-
-                    <p>This is  where you gain information about the target by interacting with it for the purpose of looking for a vulnerability. They get a lay of the land. Attackers will exploit outdated systems with known vulnerablities. </p>
-                </div>
-
-                <div class="phase-col">
-                    <h2 class="number">Phase 2</h2>
-                    <h2>Enumeration/Scanning (Pre-Exploitation)</h2>
-                    <img src="img/enumeration.jpg" width="450" height="400" alt="Enumeration/Scanning" title="The second phase of Hacking is Enumeration" >
-                </div>
-            </article>
+    <main><!-- MAIN -->
+      <section>
+        <h2>Adopt a hacker mindset to improve threat detection</h2>
+        <p>For the aspiring security professionals and everyday tech user that will keep adversaries from gaining
+          access
+          to their device. They typically use a 5-step methodology from discovery to exploitation. This mindset
+          emphasizes exploitation problem-solving abilities, creativity, and constant learning.</p>
+  
+        <p>Get to know techniques and tools they use</p>
+        <nav>
+          <ul>
+            <li><a href="#recon">Reconnaissance</a></li>
+            <li><a href="#enumeration">Enumeration</a></li>
+          </ul>
+        </nav>
+      </section>
+  
+      <!-- 5 Hacking Steps -->
+      <section class="phases">
+  
+        <!-- Recon Phase -->
+        <article class="phase-row">
+          <div class="phase-col">
+            <h2 class="number">Phase 1</h2>
+            <h2>Reconnaissance/Footprinting</h2>
+            <img src="img/recon.jpg" width="450" height="400" alt="Reconnaissance/Footprinting"
+              title="The first phase of Hacking is Reconnaissance">
+          </div>
+          <div class="phase-col">
+            <p class="intro">Initial phase of a systematic data-gathering process</p>
+  
+            <p>Methods used:</p>
+            <ul>
+              <li>Open Source Intelligence</li>
+              <li>Active and Passive</li>
+              <li>Information Gathering</li>
+            </ul>
+  
+            <p>Tools used:</p>
+            <ul>
+              <li><a href="https://angryip.org/">Angry IP Scanner</a></li>
+              <li><a href="https://dnschecker.org/online-traceroute.php">Traceroute</a></li>
+              <li><a href="https://certisec.org/recon-ng-a-full-guide/">Recon-ng</a></li>
+              <li><a href="https://certisec.org/recon-ng-a-full-guide/">TheHarvester</a></li>
+            </ul>
+  
+            <p>This entails getting as much information as you can about the target without interacting directly
+              with the target. The greatest resource for recon is the Internet, and the greatest tool is the
+              search engine, Google. </p>
+          </div>
         </article>
+  
+        <!-- Enumeration Phase-->
+        <article class="phase-row">
+          <div class="phase-col">
+            <p class="intro">Systematic exploration to identify open ports, services, and potential
+              vulnerabilities</p>
+  
+            <p>Methods used:</p>
+            <ul>
+              <li>Port Scanning</li>
+              <li>Vulnerability Scanning</li>
+              <li>Banner Grabbing</li>
+            </ul>
+  
+            <p>Tools used:</p>
+            <ul>
+              <li><a
+                  href="https://www.csoonline.com/article/567067/what-is-metasploit-and-how-to-use-this-popular-hacking-tool.html">Metasploit</a>
+              </li>
+              <li><a href="https://nmap.org/">Nmap</a></li>
+              <li><a href="https://cirt.net/Nikto2">Nikto</a></li>
+              <li><a href="https://www.cs.cmu.edu/~dwendlan/personal/nessus.html">Nessus</a></li>
+            </ul>
+  
+            <p>This is where you gain information about the target by interacting with it for the purpose of
+              looking for a vulnerability. They get a lay of the land. Attackers will exploit outdated systems
+              with known vulnerablities. </p>
+          </div>
+  
+          <div class="phase-col">
+            <h2 class="number">Phase 2</h2>
+            <h2>Enumeration/Scanning (Pre-Exploitation)</h2>
+            <img src="img/enumeration.jpg" width="450" height="400" alt="Enumeration/Scanning"
+              title="The second phase of Hacking is Enumeration">
+          </div>
+        </article>
+      </section>
     </main>
     <footer><!-- Defines a footer for a document or section -->
-        &copy; 2024 The Mind of a Hacker
+      &copy; 2024 The Mind of a Hacker
     </footer>
-</body>
+  </body>
 </html>
 
